@@ -1,21 +1,23 @@
-import axios from 'axios';
+import axios from 'axios'
 
 const axiosApi = axios.create({
   baseURL: 'http://localhost:3001',
-});
+})
 
-const getUsers = () => axiosApi.get('/users');
+const getUsers = () => axiosApi.get('/users')
 
-const createUser = ({firstName, lastName}) => axiosApi.post('/users', {
-  firstName, lastName
-});
+const createUser = ({firstName, lastName}) =>
+  axiosApi.post('/users', {
+    firstName,
+    lastName,
+  })
 
-const deleteUser = (userId) => axiosApi.delete(`/users/${userId}`);
+const deleteUser = (userId) => axiosApi.delete(`/users/${userId}`)
 
 const api = {
   getUsers,
   createUser,
-  deleteUser
-};
+  deleteUser,
+}
 
-export default api;
+export default api

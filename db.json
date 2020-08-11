@@ -16,11 +16,6 @@
       "lastName": "Fernbrook"
     },
     {
-      "id": 5,
-      "firstName": "Emily",
-      "lastName": "Kim"
-    },
-    {
       "id": 6,
       "firstName": "Peter",
       "lastName": "Zhang"
@@ -29,11 +24,6 @@
       "id": 7,
       "firstName": "Cindy",
       "lastName": "Smith"
-    },
-    {
-      "id": 8,
-      "firstName": "Ted",
-      "lastName": "Fernbrook"
     },
     {
       "id": 9,
@@ -49,11 +39,6 @@
       "id": 11,
       "firstName": "Peter",
       "lastName": "Smith"
-    },
-    {
-      "id": 13,
-      "firstName": "Ted",
-      "lastName": "Kim"
     },
     {
       "id": 14,
@@ -76,11 +61,6 @@
       "lastName": "Zhang"
     },
     {
-      "id": 21,
-      "firstName": "Peter",
-      "lastName": "Kim"
-    },
-    {
       "id": 23,
       "firstName": "Ted",
       "lastName": "Zhang"
@@ -94,6 +74,11 @@
       "id": 25,
       "firstName": "Emily",
       "lastName": "Fernbrook"
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Kim",
+      "id": 26
     }
   ]
 }
